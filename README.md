@@ -8,3 +8,7 @@ the other, we can run a local server, perform git commands, or other
 CLI commands.
 
 In tmux-worspace.sh, you'll want to replace the path to the setup-nvim-workspace.sh file to the absolute path in your file system.
+
+## Github Account Switching
+This bash script helps you switch between personal and work Github accounts.
+* Use this [github ssh setup reference](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) if ssh keys for your work account if needed
