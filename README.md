@@ -1,6 +1,13 @@
 # qol-bash
 Quality of life bash scripts that automate some regular workflow tasks.
 
+## Run globally
+1) In your `~/.zshrc` file add the following lines
+```
+alias sko="sh ~/<PATH_TO_SCRIPT>.sh"
+```
+2) Run the command `source ~/.zshrc`
+
 ## Tmux Workspace
 This bash script creates a tmux session in the directory of your choice, 
 opens a new window, and starts nvim. In one window, we can edit code. In 
