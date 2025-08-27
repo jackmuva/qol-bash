@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd "$1"
-tmux new-session -s nvim_session 'sh ~/Documents/qol-bash/setup-nvim-workspace.sh';
+tmux new-session -s nvim_session 'sh ~/projects/qol-bash/setup-nvim-workspace.sh';
